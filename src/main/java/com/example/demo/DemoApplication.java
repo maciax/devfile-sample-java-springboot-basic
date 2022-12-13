@@ -12,7 +12,7 @@ public class DemoApplication {
 
     @RequestMapping("/")
     String home() {
-        return "Cambios de ULA!";
+        return "OpenShift Cambio desde repositorio!";
     }
 
     public static void main(String[] args) {
